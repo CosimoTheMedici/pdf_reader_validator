@@ -1,10 +1,9 @@
 import { createBrowserRouter , RouterProvider } from 'react-router-dom'
 
 import { 
-   Ndex,
+   Ndex, UploadFile, Tickets,
     
 } from '../components/pages'
-import Tickets from '../components/pages/Tickets'
 
 export const router = createBrowserRouter([
    
@@ -15,6 +14,10 @@ export const router = createBrowserRouter([
     {
         path:'/tab',
         element:<Tickets />
+    },
+    {
+        path:'/upload-doc',
+        element:<UploadFile />
     },
     // {
     //     path:'/reset',

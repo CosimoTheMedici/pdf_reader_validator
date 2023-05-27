@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Sidebar } from './common';
+import { Navbar, Sidebar } from '../components/common/';
 
 
 const MainLayoutAuthcopy = (Component) => function HOC() {
@@ -8,14 +8,9 @@ const MainLayoutAuthcopy = (Component) => function HOC() {
     return (
       <div class="main-wrapper">
              <Navbar />
-            <Sidebar />
-
+             <Sidebar />
         <div class="page-wrapper">
-            
-
-                <Component />
-          
-
+            <Component />
         </div>
         </div>
 

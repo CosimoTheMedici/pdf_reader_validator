@@ -1,2 +1,2 @@
 invoice-settings.html
-/theme-settings.html
+theme-settings.html
